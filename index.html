@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhruv Patel | Software Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Dhruv Patel, a software and mobile application developer based in London, Ontario."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      &uarr;
+    </button>
+
+    <header class="header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo">Dhruv<span>Patel</span></a>
+
+        <div class="nav-controls">
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#awards" class="nav-link">Awards</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Switch to dark theme"
+            aria-pressed="false"
+          >
+            <span class="theme-toggle-icon"></span>
+          </button>
+
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Software Developer | Mobile App Developer</p>
+            <h1>Dhruv Patel</h1>
+            <h2 id="typingText" class="hero-subtitle">
+              Building reliable web and mobile applications.
+            </h2>
+            <p class="hero-description">
+              London, Ontario based developer with experience across Java,
+              JavaScript, C#, PHP, Kotlin, Swift, React, Firebase, REST APIs,
+              and mobile application architecture.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+              <a
+                href="./Dhruv_Resume.pdf"
+                class="btn btn-outline"
+                download="Dhruv_Resume.pdf"
+                >Download Resume</a
+              >
+            </div>
+
+            <div class="metric-grid">
+              <div class="metric">
+                <strong>4.06</strong>
+                <span>Fanshawe GPA</span>
+              </div>
+              <div class="metric">
+                <strong>8.12</strong>
+                <span>BCA GPA</span>
+              </div>
+              <div class="metric">
+                <strong>4+</strong>
+                <span>Mobile Projects</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Developer dashboard visual">
+            <div class="terminal">
+              <div class="terminal-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="terminal-body">
+                <p><span>const</span> developer = "Dhruv Patel";</p>
+                <p><span>stack</span> = ["React", "Swift", "Kotlin", "Firebase"];</p>
+                <p><span>focus</span> = "clean, scalable app experiences";</p>
+                <p><span>status</span> = "open to software roles";</p>
+              </div>
+            </div>
+            <div class="tech-radar">
+              <span>REST APIs</span>
+              <span>MVVM</span>
+              <span>Agile</span>
+              <span>Cloud Sync</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-label">Core Skills</p>
+            <h2>Full-stack thinking with mobile-first execution.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3>Programming & Frameworks</h3>
+              <div class="chip-list">
+                <span>Java</span><span>JavaScript</span><span>C</span>
+                <span>C#</span><span>PHP</span><span>Kotlin</span>
+                <span>Swift</span><span>React</span><span>HTML</span><span>CSS</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3>Backend & Architecture</h3>
+              <div class="chip-list">
+                <span>CodeIgniter</span><span>Firebase</span>
+                <span>RESTful APIs</span><span>Microservices</span><span>MVVM</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3>Databases & Cloud</h3>
+              <div class="chip-list">
+                <span>MySQL</span><span>SQLite</span><span>Firestore</span>
+                <span>Firebase Auth</span><span>Git</span><span>JIRA</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3>Development Practice</h3>
+              <div class="chip-list">
+                <span>Agile</span><span>Scrum</span><span>SDLC</span>
+                <span>Unit Testing</span><span>TDD</span><span>Incident Resolution</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="experience">
+        <div class="container split-layout">
+          <div class="section-heading reveal">
+            <p class="section-label">Work Experience</p>
+            <h2>Practical backend and team delivery experience.</h2>
+          </div>
+
+          <article class="experience-card reveal">
+            <div>
+              <p class="role-label">Web Developer Intern</p>
+              <h3>Universal Technolabs</h3>
+              <p class="location">India</p>
+            </div>
+            <ul class="detail-list">
+              <li>Improved backend API functionality using CodeIgniter.</li>
+              <li>Resolved code issues and participated in code reviews.</li>
+              <li>Collaborated in an Agile team using industry-standard coding practices.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-label">Projects</p>
+            <h2>Mobile and web apps focused on performance and usability.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon">01</span>
+                <span class="platform">Android</span>
+              </div>
+              <h3>Enjoyee Application</h3>
+              <p>
+                Short-video sharing app with editing features, performance
+                optimization, and iterative Agile delivery.
+              </p>
+              <div class="project-tags">
+                <span>Kotlin</span><span>Mobile UX</span><span>Performance</span>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon">02</span>
+                <span class="platform">iOS</span>
+              </div>
+              <h3>WeatherCast</h3>
+              <p>
+                Real-time weather application with live updates, visual
+                forecasts, and user-friendly navigation.
+              </p>
+              <div class="project-tags">
+                <span>Swift</span><span>API</span><span>iOS</span>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon">03</span>
+                <span class="platform">React Native</span>
+              </div>
+              <h3>MemoRise</h3>
+              <p>
+                Cross-platform note-taking app with online/offline sync,
+                accessibility focus, and secure data handling.
+              </p>
+              <div class="project-tags">
+                <span>React Native</span><span>Sync</span><span>Security</span>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon">04</span>
+                <span class="platform">iOS</span>
+              </div>
+              <h3>ToDoList</h3>
+              <p>
+                Task management app with Firebase authentication, cloud sync,
+                animated UI, MVVM architecture, and unit testing.
+              </p>
+              <div class="project-tags">
+                <span>Firebase</span><span>MVVM</span><span>Unit Testing</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="education">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-label">Education</p>
+            <h2>Academic foundation in mobile and computer applications.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-content">
+                <p class="timeline-date">Jan 2023 - Apr 2024</p>
+                <h3>Postgraduate Certificate, Mobile Application Development</h3>
+                <p>Fanshawe College - London, ON</p>
+                <strong>GPA: 4.06</strong>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-content">
+                <p class="timeline-date">Aug 2018 - May 2021</p>
+                <h3>Bachelor of Computer Applications</h3>
+                <p>Gujarat University - Ahmedabad, India</p>
+                <strong>GPA: 8.12</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="awards">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-label">Awards</p>
+            <h2>Recognition for consistent academic performance.</h2>
+          </div>
+
+          <div class="award-grid">
+            <article class="award-card reveal">
+              <span>Jan 2022</span>
+              <h3>Distinction</h3>
+              <p>
+                Awarded by Gujarat University for outstanding performance in
+                computer science fundamentals during the BCA program.
+              </p>
+            </article>
+
+            <article class="award-card reveal">
+              <span>Apr 2024</span>
+              <h3>President's Honour Roll</h3>
+              <p>
+                Earned at Fanshawe College for exceptional achievement in the
+                Mobile Application Development postgraduate certificate.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="contact">
+        <div class="container contact-layout">
+          <div class="section-heading reveal">
+            <p class="section-label">Contact</p>
+            <h2>Let's build reliable software.</h2>
+            <p>
+              Open to software development, mobile application, and web
+              development opportunities.
+            </p>
+          </div>
+
+          <div class="contact-panel reveal">
+            <div class="contact-links">
+              <a href="tel:14375990709">437-599-0709</a>
+              <a href="mailto:dhruv792000patel@gmail.com">dhruv792000patel@gmail.com</a>
+              <span>London, Ontario</span>
+              <a
+                href="https://www.linkedin.com/in/dpatel07/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </div>
+
+            <form
+              class="contact-form"
+              id="contactForm"
+              action="https://formspree.io/f/maqadnae"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="New portfolio message for Dhruv Patel"
+              />
+              <label>
+                <span>Name</span>
+                <input type="text" id="name" name="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" id="email" name="email" required />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary full-width">
+                Send Message
+              </button>
+              <p class="form-message" id="formMessage"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <h3>Dhruv Patel</h3>
+        <p>Software Developer | Mobile App Developer</p>
+        <p class="copyright">
+          &copy; <span id="currentYear"></span> Dhruv Patel. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
